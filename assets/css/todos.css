@@ -1,0 +1,49 @@
+
+body {
+    justify-content: center;
+    text-align: center;
+    background-color: #fecc3e;
+
+}
+
+.logo {
+
+
+    background-color: #fecc3e;
+}
+
+.nav {
+    background-color: #fecc3e;
+
+}
+
+.nav a:link, a:visited, a:active {
+    text-decoration:none;
+    color: white;
+    font-weight: bold;
+
+}
+
+.enlace:link, .enlace:visited, .enlace:active{
+    color:rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.enlace:hover{
+    color: rgb(223, 15, 178);
+}
+
+#fondo {
+    background-color: #fecc3e;
+}
+
+.card {
+    border-color: blueviolet !important;
+    border: 10px !important;
+}
+
+.menu {
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+}

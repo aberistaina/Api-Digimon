@@ -1,0 +1,69 @@
+
+body {
+    justify-content: center;
+    text-align: center;
+    background-color: #fecc3e;
+
+}
+
+#logo1{
+    height: 100;
+    background-color: #fecc3e;
+}
+
+.nav {
+    background-color: #fecc3e;
+
+}
+
+.nav a:link, a:visited, a:active {
+    text-decoration:none;
+    color: white;
+    font-weight: bold;
+
+}
+
+.enlace:link, .enlace:visited, .enlace:active{
+    color:rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.enlace:hover{
+    color: rgb(223, 15, 178);
+}
+
+.agrandar {
+    transform: scale(3.1);
+    border: 1px;
+    border-style: solid;
+    border-color: dimgrey;
+}
+
+.imagen {
+    border-radius: 20px;
+}
+
+.letra {
+    cursor: pointer;
+    text-decoration: underline;
+    color: blue;
+}
+
+.tabla-head {
+    position: sticky;
+    top: 40px
+}
+
+.menu{
+    position: sticky;
+    top: 0px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+        .z {
+            margin-left:200px ;
+        }
+
+}
+

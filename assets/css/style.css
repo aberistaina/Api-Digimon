@@ -1,0 +1,51 @@
+
+#fondo {
+    background-color: #fecc3e;
+    background-image: url(../img/digimon4.png);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.card-title {
+    font-size: 30px;
+}
+
+
+.nav a:link, a:visited, a:active {
+    text-decoration:none;
+    color: white;
+    font-weight: bold;
+
+}
+
+#numero{
+    width: 195px;
+}
+
+#nombre{
+    width: 195px;
+}
+
+
+@media (max-width: 950px) {
+    #fondo {
+        background-image: none;
+    }
+
+}
+
+
+@media (max-width: 500px) {
+
+
+    .logo {
+        display: none;
+        
+    }
+
+    .card {
+        margin-top: 350px;
+    padding-top: 500px;    }
+}
+
